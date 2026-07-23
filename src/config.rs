@@ -83,7 +83,7 @@ lazy_static::lazy_static! {
         let mut map = HashMap::new();
         map.insert("password".to_string(), "ceshi_jd618".to_string());
         RwLock::new(map)
-};    pub static ref BUILTIN_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
+    pub static ref BUILTIN_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
 }
 
 #[cfg(target_os = "android")]
